@@ -1,4 +1,8 @@
 defmodule Rebalancex.Quote do
+  @moduledoc """
+  Provides real-time prices to a specific symbol using AlphaVantage API
+  """
+
   def price_for(symbol) do
     {:ok, %HTTPoison.Response{status_code: 200, body: body}} = HTTPoison.get(symbol_url(symbol))
     json = Jason.decode!(body)

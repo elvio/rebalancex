@@ -1,4 +1,8 @@
 defmodule Rebalancex do
+  @moduledoc """
+  Rebalances a portfolio using the "Permanent Portfolio" approach
+  """
+
   alias Rebalancex.Quote
 
   @underweight 0.25
