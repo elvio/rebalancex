@@ -1,5 +1,7 @@
 # Rebalancex
 
+[![CircleCI](https://circleci.com/gh/elvio/rebalancex.svg?style=svg)](https://circleci.com/gh/elvio/rebalancex)
+
 This project showcases how to rebalance a "Permanent Portfolio".
 
 ## What's a "Permanent Portfolio"?
