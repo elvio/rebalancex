@@ -20,7 +20,8 @@ defmodule Rebalancex.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.5"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
 end
